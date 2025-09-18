@@ -1,0 +1,16 @@
+venv/
+data/
+results/
+dataset/
+tmp/
+OOD-CV-Cls/
+.claude/
+__pycache__/
+*.bib
+*.tex
+logs/
+experiments*
+extracted_samples/
+indices_cache/
+saved_images/
+results_ablation_multi_gpu/
