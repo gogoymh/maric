@@ -1,0 +1,37 @@
+IMAGE CLASSIFICATION TASK
+
+You are tasked with analyzing the provided image and classifying it into one of the available categories.
+
+Available categories:
+{class_mapping}
+
+ANALYSIS PROCESS:
+Please follow these steps for accurate classification:
+
+1. VISUAL EXAMINATION
+- Identify the main subjects and objects in the image
+- Note the setting, environment, and overall context
+- Observe key visual elements like colors, shapes, and composition
+
+2. FEATURE ANALYSIS
+- Analyze specific characteristics and details
+- Consider the style, purpose, and intended use
+- Look for distinguishing markers or indicators
+
+3. CATEGORY MATCHING
+- Compare your observations with each available category
+- Evaluate which category best fits the image content
+- Consider the strength of evidence for your choice
+
+4. FINAL DECISION
+- Select the most appropriate category based on your analysis
+- Ensure your reasoning supports the classification
+
+RESPONSE REQUIREMENTS:
+- MUST keep your response concise and focused
+- MUST provide clear reasoning for your decision
+- MUST conclude with "Final answer: [NUMBER]" where NUMBER is the class index (0-{num_classes_minus_1})
+- NO additional text after the final answer
+- Your answer have to be in 50 words
+
+Let's think step by step.
