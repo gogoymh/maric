@@ -1,6 +1,7 @@
 # MARIC: Multi-Agent Reasoning for Image Classification
 
 MARIC is a multi-agent framework that reformulates image classification as a collaborative reasoning process using Vision-Language Models (VLMs).
+Paper: https://arxiv.org/pdf/2509.14860
 
 ## Overview
 
