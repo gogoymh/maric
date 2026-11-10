@@ -8,6 +8,7 @@
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
   <img alt="Hugging Face Transformers" src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-eab308?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -262,6 +263,10 @@ MARIC is the method of the paper **[MARIC: Multi-Agent Reasoning for Image Class
   note          = {Wonduk Seo and Minhyeong Yu contributed equally}
 }
 ```
+
+## License
+
+[MIT](LICENSE)
 
 <p align="center">
   <a href="https://github.com/gogoymh/maric"><img src="docs/assets/star.gif" alt="Find MARIC useful? Give it a star so more researchers can find it. A cursor clicks the Star button and the star turns yellow." width="640"></a>
