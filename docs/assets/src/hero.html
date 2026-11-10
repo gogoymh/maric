@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MARIC hero</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { width: 1280px; height: 460px; overflow: hidden; }
+  /* hero-background.jpg is drawn over the gradient; without the file, the gradient alone shows. */
+  .hero {
+    position: relative; width: 1280px; height: 460px;
+    background:
+      url("hero-background.jpg") center / cover no-repeat,
+      linear-gradient(100deg, #f8f5fb 0%, #eef0fb 50%, #e6f1f6 100%);
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    color: #1d1d1f; -webkit-font-smoothing: antialiased;
+  }
+  .copy { position: absolute; left: 76px; top: 50%; transform: translateY(-50%); width: 700px; }
+  .name {
+    display: inline-block; font-size: 28px; font-weight: 700; letter-spacing: -0.01em;
+    background: linear-gradient(90deg, #7b61ff 0%, #4f7dff 55%, #2fb59c 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 { margin: 14px 0 0; font-size: 50px; line-height: 1.08; font-weight: 700; letter-spacing: -0.03em; }
+  .sub { margin-top: 14px; font-size: 21px; line-height: 1.3; font-weight: 500; letter-spacing: -0.015em; color: #515154; }
+  .meta { margin-top: 24px; display: flex; gap: 8px; }
+  .meta span {
+    font-size: 19px; font-weight: 600; letter-spacing: -0.01em; color: #1d1d1f;
+    padding: 6px 14px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.78); border: 1px solid rgba(60, 60, 67, 0.14);
+    box-shadow: 0 1px 2px rgba(60, 60, 67, 0.06);
+  }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="copy">
+      <div class="name">MARIC</div>
+      <h1>Multi-Agent Reasoning<br>for Image Classification</h1>
+      <div class="sub">Training-free classification with vision-language models</div>
+      <div class="meta"><span>Outliner Agent</span><span>Aspect Agents</span><span>Reasoning Agent</span></div>
+    </div>
+  </div>
+</body>
+</html>
